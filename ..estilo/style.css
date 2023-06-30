@@ -39,7 +39,7 @@ section{
 }
 section > p{ 
     text-align: justify; 
-    padding: 5px 75px 5px 0px; 
+    padding:10px;
     margin-right: 750px; 
     margin-left: 30px; 
     font-size: 1.5em; 
@@ -59,8 +59,12 @@ section > p{
     margin: 25px 200px 25px 200px;
 }
 .imagem{ 
-    background-attachment: fixed;
+    background-attachment: fixed; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
     
+} 
+.imagem > p { 
+    background-color: #ffd17588;
 }
 #img01{ 
     background-image: url(../imagens/leaoimg01.jpg); 
@@ -71,6 +75,9 @@ section > p{
     background-image: url(../imagens/img02.jpg); 
     background-position: bottom right; 
     background-size: cover;
+} 
+#img02 > h2{ 
+    padding: 21px 176px 16px 151px; 
 }
 ul{ 
     margin-left: 200px; 
@@ -80,7 +87,7 @@ li{
     padding: 1vw;
 }
 h2{ 
-    text-align: justify; 
+    text-align: center; 
     padding-bottom: 26px;
     margin-right: 790px; 
     margin-left: 5px; 
@@ -90,12 +97,15 @@ h2{
     max-width: 800px;
 } 
 a{ 
-    text-decoration: none;  
-    color: white;
+    text-decoration: underline;  
+    color: black;
 } 
 footer{ 
     background-color: var(--cor4); 
     padding: 24px 300px 21px 300px; 
-    text-align: center 
+    text-align: center    
 }
- 
+footer > p{ 
+    font-size: 1.5em; 
+    font-weight: bolder;
+}
