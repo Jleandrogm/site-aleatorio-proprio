@@ -13,8 +13,11 @@
 } 
 *{ 
     margin: 0px; 
-    min-height: 100vh;  
-}  
+      
+} 
+body, html{ 
+    min-height: 100vh;
+} 
 header{ 
     background-image: url(../imagens/savana_leao.jpg); 
     background-position: center bottom; 
